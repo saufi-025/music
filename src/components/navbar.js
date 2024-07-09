@@ -8,7 +8,7 @@ const Navbar = () => {
   return(
     <div className="relative min-h-screen">
     <Main />
-      <nav className="bg-slate-900 w-full h-auto fixed bottom-0 flex justify-center p-2">
+      <nav className="bg-slate-900 w-full h-auto fixed bottom-0 flex justify-center p-2 z-50">
         <ul className="list-none w-full max-w-md flex items-center justify-between px-4">
           <li className="text-2xl text-white flex flex-col items-center space-y-1">
             <AiOutlineHome className="hover:text-gray-400 transition-colors mt-3" />
